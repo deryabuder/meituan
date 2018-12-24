@@ -6,7 +6,7 @@ li{list-style:none;}
 input,select,textarea{outline: none; border:none;}
 textarea{resize: none;}
 a{text-decoration:none;}
-a:hover{color:#13D1BE;}
+a:hover{color:#13D1BE; cursor: pointer;}
 
 /*清除浮动*/
 .clearfix::after{content:"";display:block; clear:both;}

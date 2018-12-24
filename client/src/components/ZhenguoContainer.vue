@@ -29,7 +29,7 @@
           <span class='hotel-money-num'>100</span>
         </div>
       </li>
-            <li class='hotel-item fl'>
+      <li class='hotel-item fl'>
         <div class='hotel-img-wrapper'>
           <img class='hotel-img' src='../assets/images/hotel.jpg'>
           <img class='hotel-head' src='../assets/images/hotel-head.png'/>
@@ -40,7 +40,7 @@
           <span class='hotel-money-num'>100</span>
         </div>
       </li>
-            <li class='hotel-item fl'>
+      <li class='hotel-item fl'>
         <div class='hotel-img-wrapper'>
           <img class='hotel-img' src='../assets/images/hotel.jpg'>
           <img class='hotel-head' src='../assets/images/hotel-head.png'/>
@@ -51,7 +51,7 @@
           <span class='hotel-money-num'>100</span>
         </div>
       </li>
-            <li class='hotel-item fl'>
+      <li class='hotel-item fl'>
         <div class='hotel-img-wrapper'>
           <img class='hotel-img' src='../assets/images/hotel.jpg'>
           <img class='hotel-head' src='../assets/images/hotel-head.png'/>
@@ -62,7 +62,7 @@
           <span class='hotel-money-num'>100</span>
         </div>
       </li>
-            <li class='hotel-item fl'>
+      <li class='hotel-item fl'>
         <div class='hotel-img-wrapper'>
           <img class='hotel-img' src='../assets/images/hotel.jpg'>
           <img class='hotel-head' src='../assets/images/hotel-head.png'/>
@@ -73,7 +73,7 @@
           <span class='hotel-money-num'>100</span>
         </div>
       </li>
-            <li class='hotel-item fl'>
+      <li class='hotel-item fl'>
         <div class='hotel-img-wrapper'>
           <img class='hotel-img' src='../assets/images/hotel.jpg'>
           <img class='hotel-head' src='../assets/images/hotel-head.png'/>
@@ -84,7 +84,7 @@
           <span class='hotel-money-num'>100</span>
         </div>
       </li>
-            <li class='hotel-item fl'>
+      <li class='hotel-item fl'>
         <div class='hotel-img-wrapper'>
           <img class='hotel-img' src='../assets/images/hotel.jpg'>
           <img class='hotel-head' src='../assets/images/hotel-head.png'/>
@@ -95,7 +95,7 @@
           <span class='hotel-money-num'>100</span>
         </div>
       </li>
-            <li class='hotel-item fl'>
+      <li class='hotel-item fl'>
         <div class='hotel-img-wrapper'>
           <img class='hotel-img' src='../assets/images/hotel.jpg'>
           <img class='hotel-head' src='../assets/images/hotel-head.png'/>
@@ -135,6 +135,8 @@ export default {}
   background: rgba(223, 156, 13, 0.911);
   color: #fff;
   padding-left: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .subtitle-list li{
   float: left;
@@ -154,6 +156,7 @@ export default {}
 .hotel-img {
   width: 370px;
   height: 208px;
+  border-radius: 5px;
 }
 .hotel-list {
   padding: 10px;

@@ -32,7 +32,7 @@
           </div>
           </div>
         </li>
-                <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../assets/images/food.jpg'/>
@@ -60,7 +60,7 @@
           </div>
           </div>
         </li>
-                <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../assets/images/food.jpg'/>
@@ -88,7 +88,7 @@
           </div>
           </div>
         </li>
-                <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../assets/images/food.jpg'/>
@@ -116,7 +116,7 @@
           </div>
           </div>
         </li>
-                <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../assets/images/food.jpg'/>
@@ -144,7 +144,7 @@
           </div>
           </div>
         </li>
-                <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../assets/images/food.jpg'/>
@@ -172,7 +172,7 @@
           </div>
           </div>
         </li>
-                <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../assets/images/food.jpg'/>
@@ -200,7 +200,7 @@
           </div>
           </div>
         </li>
-                <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../assets/images/food.jpg'/>
@@ -228,7 +228,7 @@
           </div>
           </div>
         </li>
-                <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../assets/images/food.jpg'/>
@@ -256,7 +256,7 @@
           </div>
           </div>
         </li>
-                <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../assets/images/food.jpg'/>
@@ -284,7 +284,7 @@
           </div>
           </div>
         </li>
-                <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../assets/images/food.jpg'/>
@@ -343,6 +343,8 @@ export default {}
   background: #0ECAC7;
   color: #fff;
   padding-left: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .shop-list-wrapper {
   padding: 10px;
@@ -352,6 +354,9 @@ export default {}
 }
 .r-c-shop-item .shop-img {
   width: 100%;
+}
+.r-c-shop-item .shop-img img{
+  border-radius: 5px;
 }
 .r-c-shop-item .shop-description {
   font-size: 16px;
