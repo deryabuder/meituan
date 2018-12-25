@@ -836,29 +836,29 @@
         <div class='banner-row clearfix'>
           <div class='banner-swipper fl'>
             <swiper :options="swiperOption">
-              <swiper-slide><a><img src='../assets/images/banner-swipper1.jpg'/></a></swiper-slide>
-              <swiper-slide><a><img src='../assets/images/banner-swipper2.jpg'/></a></swiper-slide>
-              <swiper-slide><a><img src='../assets/images/banner-swipper3.jpg'/></a></swiper-slide>
-              <swiper-slide><a><img src='../assets/images/banner-swipper4.jpg'/></a></swiper-slide>
+              <swiper-slide><a><img src='../../assets/images/banner-swipper1.jpg'/></a></swiper-slide>
+              <swiper-slide><a><img src='../../assets/images/banner-swipper2.jpg'/></a></swiper-slide>
+              <swiper-slide><a><img src='../../assets/images/banner-swipper3.jpg'/></a></swiper-slide>
+              <swiper-slide><a><img src='../../assets/images/banner-swipper4.jpg'/></a></swiper-slide>
               <div class="swiper-pagination"  slot="pagination"></div>
             </swiper>
           </div>
-          <div class='banner-life fl'><img src='../assets/images/banner-life.jpg'/></div>
+          <div class='banner-life fl'><img src='../../assets/images/banner-life.jpg'/></div>
           <div class='user-center fl'>
             <div class='user-center-content'>
-              <div class='user-img-wrapper'><img src='../assets/images/user.png' class='user-img'/></div>
+              <div class='user-img-wrapper'><img src='../../assets/images/user.png' class='user-img'/></div>
               <div class='welcome'>Hi&nbsp;!&nbsp;你好</div>
-              <div class='banner-user-regist'>注册</div>
-              <div class='banner-user-login'>立刻登录</div>
+              <router-link tag='div' to='/register' class='banner-user-regist'>注册</router-link>
+              <router-link tag='div' to='/login' class='banner-user-login'>立刻登录</router-link>
             </div>
           </div>
         </div>
         <div class='banner-row clearfix'>
-          <div class='banner-hotel fl'><img src='../assets/images/banner-hotel.png'/></div>
-          <div class='banner-enioy fl'><img src='../assets/images/banner-enjoy.jpg'/></div>
-          <div class='banner-seller fl'><img src='../assets/images/banner-seller.jpg'/></div>
+          <div class='banner-hotel fl'><img src='../../assets/images/banner-hotel.png'/></div>
+          <div class='banner-enioy fl'><img src='../../assets/images/banner-enjoy.jpg'/></div>
+          <div class='banner-seller fl'><img src='../../assets/images/banner-seller.jpg'/></div>
           <div class='banner-app fl'>
-            <div class='banner-QR-code'><img src='../assets/images/QR-code.png'/></div>
+            <div class='banner-QR-code'><img src='../../assets/images/QR-code.png'/></div>
             <div class='banner-app-info'>
               <div class='banner-app-mobile'>美团APP手机版</div>
               <div><span class='money'>1元起</span>&nbsp;吃喝玩乐</div>
@@ -994,6 +994,7 @@ export default {
 .banner-link a:hover {
   color: #fbc700
 }
+/* 轮播图的包裹div必须设置宽度高度，不然会独占一行 */
 .banner-swipper {
   overflow: hidden;
   width: 550px;

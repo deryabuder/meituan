@@ -15,7 +15,7 @@
     <ul class='play-list clearfix'>
       <li class='play-item fl'>
         <div class='play-item-img-wrapper'>
-          <img class='play-item-img' src='../assets/images/play.jpg'/>
+          <img class='play-item-img' src='../../assets/images/play.jpg'/>
         </div>
         <div class='play-item-name'>COSTA COFFEE（华威大厦店）</div>
         <div class='one-play-item'>美式中杯1份</div>
@@ -26,7 +26,7 @@
       </li>
       <li class='play-item fl'>
         <div class='play-item-img-wrapper'>
-          <img class='play-item-img' src='../assets/images/play.jpg'/>
+          <img class='play-item-img' src='../../assets/images/play.jpg'/>
         </div>
         <div class='play-item-name'>COSTA COFFEE（华威大厦店）</div>
         <div class='one-play-item'>美式中杯1份</div>
@@ -37,7 +37,7 @@
       </li>
       <li class='play-item fl'>
         <div class='play-item-img-wrapper'>
-          <img class='play-item-img' src='../assets/images/play.jpg'/>
+          <img class='play-item-img' src='../../assets/images/play.jpg'/>
         </div>
         <div class='play-item-name'>COSTA COFFEE（华威大厦店）</div>
         <div class='one-play-item'>美式中杯1份</div>

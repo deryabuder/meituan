@@ -76,11 +76,11 @@
                   <div class='header-nav-site-app fr'>
                     <dl class='header-nav-app-list clearfix'>
                       <dt class='title'>手机应用</dt>
-                      <dd class='header-nav-app-item fl'><a><img class='app-img' src='../assets/images/app1.png'/></a></dd>
-                      <dd class='header-nav-app-item fl'><a><img class='app-img' src='../assets/images/app2.png'/></a></dd>
-                      <dd class='header-nav-app-item fl'><a><img class='app-img' src='../assets/images/app3.png'/></a></dd>
-                      <dd class='header-nav-app-item fl'><a><img class='app-img' src='../assets/images/app4.png'/></a></dd>
-                      <dd class='header-nav-app-item fl'><a><img class='app-img' src='../assets/images/app5.png'/></a></dd>
+                      <dd class='header-nav-app-item fl'><a><img class='app-img' src='../../assets/images/app1.png'/></a></dd>
+                      <dd class='header-nav-app-item fl'><a><img class='app-img' src='../../assets/images/app2.png'/></a></dd>
+                      <dd class='header-nav-app-item fl'><a><img class='app-img' src='../../assets/images/app3.png'/></a></dd>
+                      <dd class='header-nav-app-item fl'><a><img class='app-img' src='../../assets/images/app4.png'/></a></dd>
+                      <dd class='header-nav-app-item fl'><a><img class='app-img' src='../../assets/images/app5.png'/></a></dd>
                     </dl>
                   </div>
                 </div>
@@ -108,7 +108,7 @@
     <div class='header-content clearfix'>
       <div class='header-title-module'>
         <a>
-          <img src='../assets/images/logo.png' alt='美团'/>
+          <img src='../../assets/images/logo.png' alt='美团'/>
         </a>
       </div>
       <div class='header-search-module'>
@@ -220,7 +220,7 @@ export default {
   .header-nav-my, .header-nav-seller{
     position: absolute;
     background: #fff;
-    z-index: 1;
+    z-index: 2;
     text-align: center;
     padding: 0 10px;
     line-height: 35px;
@@ -245,7 +245,7 @@ export default {
     width: 1190px;
     border: 1px solid #ccc;
     border-top: 0;
-    z-index: 1;
+    z-index: 2;
     margin-left: -1133px;
   }
   .header-nav-site-content {
@@ -348,7 +348,7 @@ export default {
     width: 332px;
     line-height: 2;
     background: #fff;
-    z-index: 1;
+    z-index: 2;
     padding: 10px;
     border: 1px solid #ccc;
     border-top: 0;

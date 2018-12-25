@@ -20,8 +20,8 @@
     <ul class='hotel-list clearfix'>
       <li class='hotel-item fl'>
         <div class='hotel-img-wrapper'>
-          <img class='hotel-img' src='../assets/images/hotel.jpg'>
-          <img class='hotel-head' src='../assets/images/hotel-head.png'/>
+          <img class='hotel-img' src='../../assets/images/hotel.jpg'>
+          <img class='hotel-head' src='../../assets/images/hotel-head.png'/>
         </div>
         <div class='hotel-descript'>日租房，临时房，月租房，双塔山五路对面朗奇园高层。随时拎包入住。</div>
         <div class='hotel-keyword'>整套2居室·可住4人 | 双塔山镇</div>
@@ -31,8 +31,8 @@
       </li>
       <li class='hotel-item fl'>
         <div class='hotel-img-wrapper'>
-          <img class='hotel-img' src='../assets/images/hotel.jpg'>
-          <img class='hotel-head' src='../assets/images/hotel-head.png'/>
+          <img class='hotel-img' src='../../assets/images/hotel.jpg'>
+          <img class='hotel-head' src='../../assets/images/hotel-head.png'/>
         </div>
         <div class='hotel-descript'>日租房，临时房，月租房，双塔山五路对面朗奇园高层。随时拎包入住。</div>
         <div class='hotel-keyword'>整套2居室·可住4人 | 双塔山镇</div>
@@ -42,8 +42,8 @@
       </li>
       <li class='hotel-item fl'>
         <div class='hotel-img-wrapper'>
-          <img class='hotel-img' src='../assets/images/hotel.jpg'>
-          <img class='hotel-head' src='../assets/images/hotel-head.png'/>
+          <img class='hotel-img' src='../../assets/images/hotel.jpg'>
+          <img class='hotel-head' src='../../assets/images/hotel-head.png'/>
         </div>
         <div class='hotel-descript'>日租房，临时房，月租房，双塔山五路对面朗奇园高层。随时拎包入住。</div>
         <div class='hotel-keyword'>整套2居室·可住4人 | 双塔山镇</div>
@@ -53,8 +53,8 @@
       </li>
       <li class='hotel-item fl'>
         <div class='hotel-img-wrapper'>
-          <img class='hotel-img' src='../assets/images/hotel.jpg'>
-          <img class='hotel-head' src='../assets/images/hotel-head.png'/>
+          <img class='hotel-img' src='../../assets/images/hotel.jpg'>
+          <img class='hotel-head' src='../../assets/images/hotel-head.png'/>
         </div>
         <div class='hotel-descript'>日租房，临时房，月租房，双塔山五路对面朗奇园高层。随时拎包入住。</div>
         <div class='hotel-keyword'>整套2居室·可住4人 | 双塔山镇</div>
@@ -64,8 +64,8 @@
       </li>
       <li class='hotel-item fl'>
         <div class='hotel-img-wrapper'>
-          <img class='hotel-img' src='../assets/images/hotel.jpg'>
-          <img class='hotel-head' src='../assets/images/hotel-head.png'/>
+          <img class='hotel-img' src='../../assets/images/hotel.jpg'>
+          <img class='hotel-head' src='../../assets/images/hotel-head.png'/>
         </div>
         <div class='hotel-descript'>日租房，临时房，月租房，双塔山五路对面朗奇园高层。随时拎包入住。</div>
         <div class='hotel-keyword'>整套2居室·可住4人 | 双塔山镇</div>
@@ -75,8 +75,8 @@
       </li>
       <li class='hotel-item fl'>
         <div class='hotel-img-wrapper'>
-          <img class='hotel-img' src='../assets/images/hotel.jpg'>
-          <img class='hotel-head' src='../assets/images/hotel-head.png'/>
+          <img class='hotel-img' src='../../assets/images/hotel.jpg'>
+          <img class='hotel-head' src='../../assets/images/hotel-head.png'/>
         </div>
         <div class='hotel-descript'>日租房，临时房，月租房，双塔山五路对面朗奇园高层。随时拎包入住。</div>
         <div class='hotel-keyword'>整套2居室·可住4人 | 双塔山镇</div>
@@ -86,8 +86,8 @@
       </li>
       <li class='hotel-item fl'>
         <div class='hotel-img-wrapper'>
-          <img class='hotel-img' src='../assets/images/hotel.jpg'>
-          <img class='hotel-head' src='../assets/images/hotel-head.png'/>
+          <img class='hotel-img' src='../../assets/images/hotel.jpg'>
+          <img class='hotel-head' src='../../assets/images/hotel-head.png'/>
         </div>
         <div class='hotel-descript'>日租房，临时房，月租房，双塔山五路对面朗奇园高层。随时拎包入住。</div>
         <div class='hotel-keyword'>整套2居室·可住4人 | 双塔山镇</div>
@@ -97,8 +97,8 @@
       </li>
       <li class='hotel-item fl'>
         <div class='hotel-img-wrapper'>
-          <img class='hotel-img' src='../assets/images/hotel.jpg'>
-          <img class='hotel-head' src='../assets/images/hotel-head.png'/>
+          <img class='hotel-img' src='../../assets/images/hotel.jpg'>
+          <img class='hotel-head' src='../../assets/images/hotel-head.png'/>
         </div>
         <div class='hotel-descript'>日租房，临时房，月租房，双塔山五路对面朗奇园高层。随时拎包入住。</div>
         <div class='hotel-keyword'>整套2居室·可住4人 | 双塔山镇</div>

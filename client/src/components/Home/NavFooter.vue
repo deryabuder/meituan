@@ -112,9 +112,9 @@
         <div class='footer-copyright-right fr'>
           <a>京公网安备11010502025545号</a>
           <div>
-            <a><img src='../assets/images/footer.png' alt=''/></a>
-            <a><img src='../assets/images/footer.png' alt=''/></a>
-            <a><img src='../assets/images/footer.png' alt=''/></a>
+            <a><img src='../../assets/images/footer.png' alt=''/></a>
+            <a><img src='../../assets/images/footer.png' alt=''/></a>
+            <a><img src='../../assets/images/footer.png' alt=''/></a>
           </div>
         </div>
       </div>

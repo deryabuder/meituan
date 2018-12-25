@@ -7,18 +7,18 @@
         <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
-            <img src='../assets/images/food.jpg'/>
+            <img src='../../assets/images/food.jpg'/>
           </div>
           <div class='shop-description'>
             金真子纸上烤肉（双桥店）
           </div>
           <div class='shop-commnet clearfix'>
             <ul class='shop-comment-star fl clearfix'>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
             </ul>
             <div class='shop-comment-num fl'>1652个评论</div>
           </div>
@@ -35,18 +35,18 @@
         <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
-            <img src='../assets/images/food.jpg'/>
+            <img src='../../assets/images/food.jpg'/>
           </div>
           <div class='shop-description'>
             金真子纸上烤肉（双桥店）
           </div>
           <div class='shop-commnet clearfix'>
             <ul class='shop-comment-star fl clearfix'>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
             </ul>
             <div class='shop-comment-num fl'>1652个评论</div>
           </div>
@@ -63,18 +63,18 @@
         <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
-            <img src='../assets/images/food.jpg'/>
+            <img src='../../assets/images/food.jpg'/>
           </div>
           <div class='shop-description'>
             金真子纸上烤肉（双桥店）
           </div>
           <div class='shop-commnet clearfix'>
             <ul class='shop-comment-star fl clearfix'>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
             </ul>
             <div class='shop-comment-num fl'>1652个评论</div>
           </div>
@@ -91,18 +91,18 @@
         <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
-            <img src='../assets/images/food.jpg'/>
+            <img src='../../assets/images/food.jpg'/>
           </div>
           <div class='shop-description'>
             金真子纸上烤肉（双桥店）
           </div>
           <div class='shop-commnet clearfix'>
             <ul class='shop-comment-star fl clearfix'>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
             </ul>
             <div class='shop-comment-num fl'>1652个评论</div>
           </div>
@@ -119,18 +119,18 @@
         <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
-            <img src='../assets/images/food.jpg'/>
+            <img src='../../assets/images/food.jpg'/>
           </div>
           <div class='shop-description'>
             金真子纸上烤肉（双桥店）
           </div>
           <div class='shop-commnet clearfix'>
             <ul class='shop-comment-star fl clearfix'>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
             </ul>
             <div class='shop-comment-num fl'>1652个评论</div>
           </div>
@@ -147,18 +147,18 @@
         <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
-            <img src='../assets/images/food.jpg'/>
+            <img src='../../assets/images/food.jpg'/>
           </div>
           <div class='shop-description'>
             金真子纸上烤肉（双桥店）
           </div>
           <div class='shop-commnet clearfix'>
             <ul class='shop-comment-star fl clearfix'>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
             </ul>
             <div class='shop-comment-num fl'>1652个评论</div>
           </div>
@@ -175,18 +175,18 @@
         <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
-            <img src='../assets/images/food.jpg'/>
+            <img src='../../assets/images/food.jpg'/>
           </div>
           <div class='shop-description'>
             金真子纸上烤肉（双桥店）
           </div>
           <div class='shop-commnet clearfix'>
             <ul class='shop-comment-star fl clearfix'>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
             </ul>
             <div class='shop-comment-num fl'>1652个评论</div>
           </div>
@@ -203,18 +203,18 @@
         <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
-            <img src='../assets/images/food.jpg'/>
+            <img src='../../assets/images/food.jpg'/>
           </div>
           <div class='shop-description'>
             金真子纸上烤肉（双桥店）
           </div>
           <div class='shop-commnet clearfix'>
             <ul class='shop-comment-star fl clearfix'>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
             </ul>
             <div class='shop-comment-num fl'>1652个评论</div>
           </div>
@@ -231,18 +231,18 @@
         <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
-            <img src='../assets/images/food.jpg'/>
+            <img src='../../assets/images/food.jpg'/>
           </div>
           <div class='shop-description'>
             金真子纸上烤肉（双桥店）
           </div>
           <div class='shop-commnet clearfix'>
             <ul class='shop-comment-star fl clearfix'>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
             </ul>
             <div class='shop-comment-num fl'>1652个评论</div>
           </div>
@@ -259,18 +259,18 @@
         <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
-            <img src='../assets/images/food.jpg'/>
+            <img src='../../assets/images/food.jpg'/>
           </div>
           <div class='shop-description'>
             金真子纸上烤肉（双桥店）
           </div>
           <div class='shop-commnet clearfix'>
             <ul class='shop-comment-star fl clearfix'>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
             </ul>
             <div class='shop-comment-num fl'>1652个评论</div>
           </div>
@@ -287,18 +287,18 @@
         <li class='r-c-shop-item fl'>
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
-            <img src='../assets/images/food.jpg'/>
+            <img src='../../assets/images/food.jpg'/>
           </div>
           <div class='shop-description'>
             金真子纸上烤肉（双桥店）
           </div>
           <div class='shop-commnet clearfix'>
             <ul class='shop-comment-star fl clearfix'>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
-              <li><img src='../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
+              <li><img src='../../assets/images/star.png'/></li>
             </ul>
             <div class='shop-comment-num fl'>1652个评论</div>
           </div>

@@ -11,8 +11,8 @@
     </div>
     <ul class='movie-list clearfix'>
       <li class='movie-item fl'>
-        <img class='movie-img' src='../assets/images/movie.jpg'/>
-        <img class='cinema-type' src='../assets/images/cinema.png'/>
+        <img class='movie-img' src='../../assets/images/movie.jpg'/>
+        <img class='cinema-type' src='../../assets/images/cinema.png'/>
         <div class='movie-info'>
           <div class='movie-like-person'>
             <span class='person-num'>102888</span>人想看
@@ -24,8 +24,8 @@
         </div>
       </li>
       <li class='movie-item fl'>
-        <img class='movie-img' src='../assets/images/movie.jpg'/>
-        <img class='cinema-type' src='../assets/images/cinema.png'/>
+        <img class='movie-img' src='../../assets/images/movie.jpg'/>
+        <img class='cinema-type' src='../../assets/images/cinema.png'/>
         <div class='movie-info'>
           <div class='movie-like-person'>
             <span class='person-num'>102888</span>人想看
@@ -37,8 +37,8 @@
         </div>
       </li>
       <li class='movie-item fl'>
-        <img class='movie-img' src='../assets/images/movie.jpg'/>
-        <img class='cinema-type' src='../assets/images/cinema.png'/>
+        <img class='movie-img' src='../../assets/images/movie.jpg'/>
+        <img class='cinema-type' src='../../assets/images/cinema.png'/>
         <div class='movie-info'>
           <div class='movie-like-person'>
             <span class='person-num'>102888</span>人想看
@@ -50,8 +50,8 @@
         </div>
       </li>
       <li class='movie-item fl'>
-        <img class='movie-img' src='../assets/images/movie.jpg'/>
-        <img class='cinema-type' src='../assets/images/cinema.png'/>
+        <img class='movie-img' src='../../assets/images/movie.jpg'/>
+        <img class='cinema-type' src='../../assets/images/cinema.png'/>
         <div class='movie-info'>
           <div class='movie-like-person'>
             <span class='person-num'>102888</span>人想看
@@ -63,8 +63,8 @@
         </div>
       </li>
       <li class='movie-item fl'>
-        <img class='movie-img' src='../assets/images/movie.jpg'/>
-        <img class='cinema-type' src='../assets/images/cinema.png'/>
+        <img class='movie-img' src='../../assets/images/movie.jpg'/>
+        <img class='cinema-type' src='../../assets/images/cinema.png'/>
         <div class='movie-info'>
           <div class='movie-like-person'>
             <span class='person-num'>102888</span>人想看
