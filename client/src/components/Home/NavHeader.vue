@@ -91,7 +91,7 @@
       <div class='header-bar-position'>
         <span></span>
         <span>北京</span>
-        <a>切换城市</a>
+        <router-link to='/changecity'>切换城市</router-link>
         <div class='header-other-city'>[
           <a>大厂回族自治县</a>
           <a>廊坊</a>

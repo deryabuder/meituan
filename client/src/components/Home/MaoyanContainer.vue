@@ -4,85 +4,313 @@
     <div class='title clearfix'>
       <ul class='subtitle-list fl'>
         <li class='subtitle'>猫眼电影</li>
-        <li>正在热映</li>
-        <li>即将上映</li>
+        <li :class="{'nav-movie-choose':isPlaying}" @mouseenter="onMouseEnter1()">正在热映</li>
+        <li :class="{'nav-movie-choose':!isPlaying}" @mouseenter="onMouseEnter2()">即将上映</li>
       </ul>
       <div class='more fr'><a>全部></a></div>
     </div>
-    <ul class='movie-list clearfix'>
+    <swiper :options="swiperOption">
+      <swiper-slide><ul class='movie-list clearfix' v-if="isPlaying">
+        <li class='movie-item fl'>
+          <img class='movie-img' src='../../assets/images/movie.jpg'/>
+          <img class='cinema-type' src='../../assets/images/cinema.png'/>
+          <div class='movie-info'>
+            <div class='movie-like-person'>
+              观众评<span class='score'>9.7</span>
+            </div>
+            <div class='movie-descriptor clearfix'>
+              <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
+              <div class='movie-buy-link fr'>购票</div>
+            </div>
+          </div>
+        </li>
+        <li class='movie-item fl'>
+          <img class='movie-img' src='../../assets/images/movie.jpg'/>
+          <img class='cinema-type' src='../../assets/images/cinema.png'/>
+          <div class='movie-info'>
+            <div class='movie-like-person'>
+              观众评<span class='score'>8.7</span>
+            </div>
+            <div class='movie-descriptor clearfix'>
+              <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
+              <div class='movie-buy-link fr'>购票</div>
+            </div>
+          </div>
+        </li>
+        <li class='movie-item fl'>
+          <img class='movie-img' src='../../assets/images/movie.jpg'/>
+          <img class='cinema-type' src='../../assets/images/cinema.png'/>
+          <div class='movie-info'>
+            <div class='movie-like-person'>
+              观众评<span class='score'>8.7</span>
+            </div>
+            <div class='movie-descriptor clearfix'>
+              <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
+              <div class='movie-buy-link fr'>购票</div>
+            </div>
+          </div>
+        </li>
+        <li class='movie-item fl'>
+          <img class='movie-img' src='../../assets/images/movie.jpg'/>
+          <img class='cinema-type' src='../../assets/images/cinema.png'/>
+          <div class='movie-info'>
+            <div class='movie-like-person'>
+              观众评<span class='score'>8.7</span>
+            </div>
+            <div class='movie-descriptor clearfix'>
+              <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
+              <div class='movie-buy-link fr'>购票</div>
+            </div>
+          </div>
+        </li>
+        <li class='movie-item fl'>
+          <img class='movie-img' src='../../assets/images/movie.jpg'/>
+          <img class='cinema-type' src='../../assets/images/cinema.png'/>
+          <div class='movie-info'>
+            <div class='movie-like-person'>
+              观众评<span class='score'>8.7</span>
+            </div>
+            <div class='movie-descriptor clearfix'>
+              <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
+              <div class='movie-buy-link fr'>购票</div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      </swiper-slide>
+      <swiper-slide><ul class='movie-list clearfix' v-if="isPlaying">
+        <li class='movie-item fl'>
+          <img class='movie-img' src='../../assets/images/movie.jpg'/>
+          <img class='cinema-type' src='../../assets/images/cinema.png'/>
+          <div class='movie-info'>
+            <div class='movie-like-person'>
+              观众评<span class='score'>9.7</span>
+            </div>
+            <div class='movie-descriptor clearfix'>
+              <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
+              <div class='movie-buy-link fr'>购票</div>
+            </div>
+          </div>
+        </li>
+        <li class='movie-item fl'>
+          <img class='movie-img' src='../../assets/images/movie.jpg'/>
+          <img class='cinema-type' src='../../assets/images/cinema.png'/>
+          <div class='movie-info'>
+            <div class='movie-like-person'>
+              观众评<span class='score'>8.7</span>
+            </div>
+            <div class='movie-descriptor clearfix'>
+              <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
+              <div class='movie-buy-link fr'>购票</div>
+            </div>
+          </div>
+        </li>
+        <li class='movie-item fl'>
+          <img class='movie-img' src='../../assets/images/movie.jpg'/>
+          <img class='cinema-type' src='../../assets/images/cinema.png'/>
+          <div class='movie-info'>
+            <div class='movie-like-person'>
+              观众评<span class='score'>8.7</span>
+            </div>
+            <div class='movie-descriptor clearfix'>
+              <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
+              <div class='movie-buy-link fr'>购票</div>
+            </div>
+          </div>
+        </li>
+        <li class='movie-item fl'>
+          <img class='movie-img' src='../../assets/images/movie.jpg'/>
+          <img class='cinema-type' src='../../assets/images/cinema.png'/>
+          <div class='movie-info'>
+            <div class='movie-like-person'>
+              观众评<span class='score'>8.7</span>
+            </div>
+            <div class='movie-descriptor clearfix'>
+              <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
+              <div class='movie-buy-link fr'>购票</div>
+            </div>
+          </div>
+        </li>
+        <li class='movie-item fl'>
+          <img class='movie-img' src='../../assets/images/movie.jpg'/>
+          <img class='cinema-type' src='../../assets/images/cinema.png'/>
+          <div class='movie-info'>
+            <div class='movie-like-person'>
+              观众评<span class='score'>8.7</span>
+            </div>
+            <div class='movie-descriptor clearfix'>
+              <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
+              <div class='movie-buy-link fr'>购票</div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      </swiper-slide>
+      <div class="swiper-pagination"  slot="pagination"></div>
+    </swiper>
+  <swiper :options="swiperOption">
+    <swiper-slide><ul class='movie-list clearfix' v-if="!isPlaying">
       <li class='movie-item fl'>
-        <img class='movie-img' src='../../assets/images/movie.jpg'/>
+        <img class='movie-img' src='../../assets/images/movie2.jpg'/>
         <img class='cinema-type' src='../../assets/images/cinema.png'/>
         <div class='movie-info'>
           <div class='movie-like-person'>
-            <span class='person-num'>102888</span>人想看
+            观众评<span class='score'>9.7</span>
           </div>
           <div class='movie-descriptor clearfix'>
             <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
-            <div class='movie-buy-link fr'>预售</div>
+            <div class='movie-buy-link fr'>购票</div>
           </div>
         </div>
       </li>
       <li class='movie-item fl'>
-        <img class='movie-img' src='../../assets/images/movie.jpg'/>
+        <img class='movie-img' src='../../assets/images/movie2.jpg'/>
         <img class='cinema-type' src='../../assets/images/cinema.png'/>
         <div class='movie-info'>
           <div class='movie-like-person'>
-            <span class='person-num'>102888</span>人想看
+            观众评<span class='score'>9.7</span>
           </div>
           <div class='movie-descriptor clearfix'>
             <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
-            <div class='movie-buy-link fr'>预售</div>
+            <div class='movie-buy-link fr'>购票</div>
           </div>
         </div>
       </li>
       <li class='movie-item fl'>
-        <img class='movie-img' src='../../assets/images/movie.jpg'/>
+        <img class='movie-img' src='../../assets/images/movie2.jpg'/>
         <img class='cinema-type' src='../../assets/images/cinema.png'/>
         <div class='movie-info'>
           <div class='movie-like-person'>
-            <span class='person-num'>102888</span>人想看
+            观众评<span class='score'>9.7</span>
           </div>
           <div class='movie-descriptor clearfix'>
             <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
-            <div class='movie-buy-link fr'>预售</div>
+            <div class='movie-buy-link fr'>购票</div>
           </div>
         </div>
       </li>
       <li class='movie-item fl'>
-        <img class='movie-img' src='../../assets/images/movie.jpg'/>
+        <img class='movie-img' src='../../assets/images/movie2.jpg'/>
         <img class='cinema-type' src='../../assets/images/cinema.png'/>
         <div class='movie-info'>
           <div class='movie-like-person'>
-            <span class='person-num'>102888</span>人想看
+            观众评<span class='score'>9.7</span>
           </div>
           <div class='movie-descriptor clearfix'>
             <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
-            <div class='movie-buy-link fr'>预售</div>
+            <div class='movie-buy-link fr'>购票</div>
           </div>
         </div>
       </li>
       <li class='movie-item fl'>
-        <img class='movie-img' src='../../assets/images/movie.jpg'/>
+        <img class='movie-img' src='../../assets/images/movie2.jpg'/>
         <img class='cinema-type' src='../../assets/images/cinema.png'/>
         <div class='movie-info'>
           <div class='movie-like-person'>
-            <span class='person-num'>102888</span>人想看
+            观众评<span class='score'>9.7</span>
           </div>
           <div class='movie-descriptor clearfix'>
             <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
-            <div class='movie-buy-link fr'>预售</div>
+            <div class='movie-buy-link fr'>购票</div>
           </div>
         </div>
       </li>
-    </ul>
+    </ul></swiper-slide>
+    <swiper-slide><ul class='movie-list clearfix' v-if="!isPlaying">
+      <li class='movie-item fl'>
+        <img class='movie-img' src='../../assets/images/movie2.jpg'/>
+        <img class='cinema-type' src='../../assets/images/cinema.png'/>
+        <div class='movie-info'>
+          <div class='movie-like-person'>
+            观众评<span class='score'>9.7</span>
+          </div>
+          <div class='movie-descriptor clearfix'>
+            <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
+            <div class='movie-buy-link fr'>购票</div>
+          </div>
+        </div>
+      </li>
+      <li class='movie-item fl'>
+        <img class='movie-img' src='../../assets/images/movie2.jpg'/>
+        <img class='cinema-type' src='../../assets/images/cinema.png'/>
+        <div class='movie-info'>
+          <div class='movie-like-person'>
+            观众评<span class='score'>9.7</span>
+          </div>
+          <div class='movie-descriptor clearfix'>
+            <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
+            <div class='movie-buy-link fr'>购票</div>
+          </div>
+        </div>
+      </li>
+      <li class='movie-item fl'>
+        <img class='movie-img' src='../../assets/images/movie2.jpg'/>
+        <img class='cinema-type' src='../../assets/images/cinema.png'/>
+        <div class='movie-info'>
+          <div class='movie-like-person'>
+            观众评<span class='score'>9.7</span>
+          </div>
+          <div class='movie-descriptor clearfix'>
+            <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
+            <div class='movie-buy-link fr'>购票</div>
+          </div>
+        </div>
+      </li>
+      <li class='movie-item fl'>
+        <img class='movie-img' src='../../assets/images/movie2.jpg'/>
+        <img class='cinema-type' src='../../assets/images/cinema.png'/>
+        <div class='movie-info'>
+          <div class='movie-like-person'>
+            观众评<span class='score'>9.7</span>
+          </div>
+          <div class='movie-descriptor clearfix'>
+            <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
+            <div class='movie-buy-link fr'>购票</div>
+          </div>
+        </div>
+      </li>
+      <li class='movie-item fl'>
+        <img class='movie-img' src='../../assets/images/movie2.jpg'/>
+        <img class='cinema-type' src='../../assets/images/cinema.png'/>
+        <div class='movie-info'>
+          <div class='movie-like-person'>
+            观众评<span class='score'>9.7</span>
+          </div>
+          <div class='movie-descriptor clearfix'>
+            <div class='movie-name fl'>蜘蛛侠：平行宇宙</div>
+            <div class='movie-buy-link fr'>购票</div>
+          </div>
+        </div>
+      </li>
+    </ul></swiper-slide>
+    <div class="swiper-pagination"  slot="pagination"></div>
+  </swiper>
   </div>
 </div>
 </template>
 
 <script>
 export default {
-
+  data () {
+    return {
+      isPlaying: true,
+      swiperOption: {
+        pagination: '.swiper-pagination',
+        loop: true,
+        paginationType: 'bullets',
+        observeParents: true,
+        observer: true
+      }
+    }
+  },
+  methods: {
+    onMouseEnter1 () {
+      this.isPlaying = true
+    },
+    onMouseEnter2 () {
+      this.isPlaying = false
+    }
+  }
 }
 </script>
 <style>
@@ -118,6 +346,21 @@ export default {
   padding-left: 0;
   font-size: 20px;
 }
+.nav-movie-choose {
+  position: relative;
+}
+.nav-movie-choose::after {
+  position: absolute;
+  left: 35px;
+  bottom: 0;
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+  border-bottom: 7px solid #fff;
+}
 .title .more {
   padding-right: 18px;
 }
@@ -145,10 +388,10 @@ export default {
   line-height: 1.5;
   color: #fff;
 }
-.person-num {
+.person-num, .score {
   color: #FD9827;
   font-size: 16px;
-  padding-right: 5px;
+  padding: 0 5px;
 }
 .movie-descriptor {
   font-size: 16px;

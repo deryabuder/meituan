@@ -7,7 +7,7 @@
         </div>
         <div class='register-right fr'>
           <span>已有美团账号？</span>
-          <input type='button' value='登录'/>
+          <router-link class='login-button' tag='span' to='/login'>登录</router-link>
         </div>
       </div>
     </header>
@@ -99,7 +99,7 @@ export default {}
 .register-right {
   font-size: 14px;
 }
-.register-right input {
+.register-right .login-button {
   margin-left: 5px;
   background: #2ec3b4;
   padding: 5px 10px;

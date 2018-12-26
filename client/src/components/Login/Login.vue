@@ -28,7 +28,7 @@
           <input type='button' value='登录' class='login-button'/>
         </div>
         <div>
-          <span>还没有账号？</span><a class='free-register'>免费注册</a>
+          <span>还没有账号？</span><router-link to='/register' class='free-register'>免费注册</router-link>
         </div>
         <div class='other-method-login'>
           <div class='other-method-remand'>用合作网站账号登录</div>
@@ -108,7 +108,7 @@ export default {}
 .login-column .login-pwd-icon {
   background: url('../../assets/images/login-pwd.png') no-repeat 5px 7px;
 }
-.login-button {
+.login-right .login-button {
   display: inline-block;
   width: 100%;
   height: 35px;

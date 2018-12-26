@@ -1,10 +1,13 @@
 <template>
 <div class='recommend-container'>
   <div class='recommend-container-content'>
-    <div class='title'>猜你喜欢</div>
+    <div class='title clearfix'>
+      <li class='fl'>猜你喜欢</li>
+      <li class='description fl'>为你甄选喜欢的</li>
+    </div>
     <div class='shop-list-wrapper'>
       <ul class='r-c-shop-list clearfix'>
-        <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl' >
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../../assets/images/food.jpg'/>
@@ -32,7 +35,7 @@
           </div>
           </div>
         </li>
-        <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl' >
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../../assets/images/food.jpg'/>
@@ -60,7 +63,7 @@
           </div>
           </div>
         </li>
-        <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl' >
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../../assets/images/food.jpg'/>
@@ -88,7 +91,7 @@
           </div>
           </div>
         </li>
-        <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl' >
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../../assets/images/food.jpg'/>
@@ -116,7 +119,7 @@
           </div>
           </div>
         </li>
-        <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl' >
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../../assets/images/food.jpg'/>
@@ -144,7 +147,7 @@
           </div>
           </div>
         </li>
-        <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl' >
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../../assets/images/food.jpg'/>
@@ -172,7 +175,7 @@
           </div>
           </div>
         </li>
-        <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl' >
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../../assets/images/food.jpg'/>
@@ -200,7 +203,7 @@
           </div>
           </div>
         </li>
-        <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl' >
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../../assets/images/food.jpg'/>
@@ -228,7 +231,7 @@
           </div>
           </div>
         </li>
-        <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl' >
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../../assets/images/food.jpg'/>
@@ -256,7 +259,7 @@
           </div>
           </div>
         </li>
-        <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl' >
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../../assets/images/food.jpg'/>
@@ -284,7 +287,7 @@
           </div>
           </div>
         </li>
-        <li class='r-c-shop-item fl'>
+        <li class='r-c-shop-item fl' >
           <div class='r-c-shop-item-content'>
           <div class='shop-img'>
             <img src='../../assets/images/food.jpg'/>
@@ -319,7 +322,21 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data () {
+    return {
+      isHover: false
+    }
+  },
+  methods: {
+    onMouseEnter () {
+      this.isHover = true
+    },
+    onMouseLeave () {
+      this.isHover = false
+    }
+  }
+}
 </script>
 
 <style>
@@ -346,8 +363,31 @@ export default {}
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
+.title .description {
+  position: relative;
+  margin-left: 20px;
+  font-size: 15px;
+}
+/* 白色三角形的实现，利用after伪类，absolute定位，宽高为0，只有border-bottom有颜色 */
+.title .description::after {
+  position: absolute;
+  left: 50px;
+  bottom: 0;
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+  border-bottom: 7px solid #fff;
+}
 .shop-list-wrapper {
   padding: 10px;
+}
+/* hover属性可以在任意元素上添加，不同绑定类，并使用mouseenter和mouseleave */
+.r-c-shop-item:hover {
+  background: #eee;
+  border-radius: 5px;
 }
 .r-c-shop-item {
   padding:10px;

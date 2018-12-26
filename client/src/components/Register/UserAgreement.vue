@@ -358,9 +358,6 @@ export default {
 </script>
 
 <style>
-.header-content {
-  padding-bottom: 0 !important;
-}
 .user-agreement {
   background: #f4f4f4;
   color: #333;
