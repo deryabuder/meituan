@@ -428,7 +428,7 @@
 export default {
   data () {
     return {
-      titleIndex: 0
+      titleIndex: 1
     }
   }
 }
